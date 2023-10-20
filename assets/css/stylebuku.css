@@ -1,7 +1,7 @@
 body{ 
     background: #eee; 
     color: #333; 
-    font-family: sans-serif; 
+    font-family: Cambria; 
     font-size:15px; 
 } 
  
@@ -10,9 +10,15 @@ body{
     width: 1100px; 
     margin: 20px auto; 
 } 
+
+.foto{
+    float: right;
+    margin-right: 500px;
+    border: 1px solid #555;
+}
  
 #wrapper header{ 
-    background: #232323; 
+    background: #ef80d7; 
     padding: 20px; 
 } 
  
@@ -47,7 +53,7 @@ body{
 } 
  
 footer{ 
-    background: #232323; 
+    background: #ef80d7; 
     padding: 20px; 
 } 
 

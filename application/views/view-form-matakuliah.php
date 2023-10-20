@@ -24,6 +24,7 @@
                 <th>:</th>
                 <td>
                     <input type="text" name="kode" id="kode">
+                    <?php echo form_error('kode'); ?>
                 </td>
             </tr>
 
@@ -31,7 +32,8 @@
                 <th>Nama MTK</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="nama" id="nama">
+                    <input type="text" name="nama" id="nama"    >
+                    <?php echo form_error('nama'); ?>
                 </td>
             </tr>
 
